@@ -1,6 +1,6 @@
 # Pulumi
 
-![logo](../../images/logo-pulumi.png)
+![logo](images/logo-pulumi.png)
 
 ## Requirements
 
