@@ -226,4 +226,34 @@ aws_instance.ec2: Creation complete after 13s [id=i-0733925feb37d20be]
 Apply complete! Resources: 4 added, 0 changed, 0 destroyed.
 ```
 
+The instance is provisioned in our VPC and subnet:
 ![resources](images/tf_resource.png)
+
+## Destroy
+
+```bash
+terraform destroy
+aws_instance.ec2: Destroying... [id=i-08c2dbb3097253982]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 10s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 20s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 30s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 40s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 50s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 1m0s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 1m10s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 1m20s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 1m30s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 1m40s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 1m50s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 2m0s elapsed]
+aws_instance.ec2: Still destroying... [id=i-08c2dbb3097253982, 2m10s elapsed]
+aws_instance.ec2: Destruction complete after 2m12s
+aws_subnet.front: Destroying... [id=subnet-0453316fb14e8a44f]
+aws_security_group.ec2: Destroying... [id=sg-0974b238d5abed6c9]
+aws_subnet.front: Destruction complete after 1s
+aws_security_group.ec2: Destruction complete after 1s
+aws_vpc.vpc: Destroying... [id=vpc-084ea965deae0f93d]
+aws_vpc.vpc: Destruction complete after 1s
+
+Destroy complete! Resources: 4 destroyed.
+```
