@@ -108,6 +108,9 @@ Duration: 24s
 The instance is provisioned in our VPC and subnet:
 ![resources](images/pulumi_resources.png)
 
+Pulumi Cloud provides a dashboard for any deployment:
+![pulumi cloud](images/pulumi_cloud.png)
+
 ## Destroy
 
 ```bash
