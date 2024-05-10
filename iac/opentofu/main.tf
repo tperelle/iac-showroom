@@ -51,7 +51,7 @@ resource "aws_subnet" "front" {
 # Instance Security group
 resource "aws_security_group" "ec2" {
   name        = "ec2_security_group"
-  description = "Allows inbound access from the ALB only"
+  description = "Allows SSH from anywhere"
   vpc_id      = aws_vpc.vpc.id
 
   ingress {
