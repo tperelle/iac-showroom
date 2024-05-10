@@ -2,6 +2,10 @@
 
 ![logo](images/logo-pulumi.png)
 
+Documentation:
+- [Official website](https://www.pulumi.com/)
+- [Get started with Pulumi & AWS](https://www.pulumi.com/docs/clouds/aws/get-started/)
+
 ## Requirements
 
 Install Pulumi
@@ -18,6 +22,7 @@ Have a user account on [Pulumi Cloud](https://app.pulumi.com/?_gl=1*10vd1rq*_gcl
 
 Choose a language for the project and . In this example we will use Go:
 ```bash
+# Print Go version
 go version
 go version go1.22.3 darwin/arm64
 ```
@@ -60,7 +65,7 @@ To perform an initial deployment, run `pulumi up`
 ## Deployment
 
 ```bash
-pulumi up
+$ pulumi up
 Previewing update (dev)
 
 View in Browser (Ctrl+O): https://app.pulumi.com/tperelle/sample/dev/previews/288b5cea-990b-4721-ab5e-6fa002c51076

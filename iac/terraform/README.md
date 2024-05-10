@@ -2,6 +2,10 @@
 
 ![logo](images/logo-terraform.png)
 
+Documentation:
+- [Official website](https://www.terraform.io/)
+- [Get Started - AWS](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
+
 ## Requirements
 
 Export your AWS access key as environment variables:

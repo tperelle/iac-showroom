@@ -2,6 +2,10 @@
 
 ![logo](images/logo-opentofu.png)
 
+Documentation:
+- [Official website](https://opentofu.org/)
+- [Working with OpenTofu](https://opentofu.org/docs/intro/core-workflow/)
+
 ## Requirements
 
 Export your AWS access key as environment variables:
